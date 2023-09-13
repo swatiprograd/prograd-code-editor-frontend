@@ -1,4 +1,5 @@
 import "./App.css"
+import MainContent from "./components/MainContent";
 import Navbar from "./components/Navbar";
 import SubMenu from "./components/SubMenu";
 
@@ -7,6 +8,7 @@ return(
     <>
     <Navbar/>
     <SubMenu/>
+    <MainContent/>
     </>
 )
 }

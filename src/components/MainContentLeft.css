@@ -1,0 +1,33 @@
+.main-content-left {
+    margin: 4px, 4px;
+    padding: 4px;
+
+    width: 50vw;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.question-header {
+    width: 48vw;
+    height: 10vh;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.question-header span:first-of-type {
+    float: left;
+}
+
+.question-header span:last-of-type {
+    float: right;
+    color: #2db55d;
+}
+
+.question-description {
+    width: 50vw;
+}
+
+.question-description p:first-of-type {
+    margin-bottom: 1rem;
+}
