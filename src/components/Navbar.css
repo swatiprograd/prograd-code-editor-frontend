@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.previous {
+    margin-left: 15vw;
+}
+
+.next {
+    margin-left: 1vw;
+}
+
+.previous,
+.next {
+    width: 19px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+svg {
+    background-color: white;
+    width: 19px;
+    height: 20px;
+    border-radius: 5px;
+    color: black;
+    margin-left: 45vw;
+}
+
+.user-avatar {
+    width: 19px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 12vw;
+}
