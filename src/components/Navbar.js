@@ -7,10 +7,10 @@ export default function Navbar() {
             <a href="https://prograd.org/" target="_blank" rel="noreferrer">
                 <img src="../src/images/ProGrad-Logo.png" alt="ProGrad Logo" width="175px" height="29px" />
             </a>
-            <a href="#" class="previous">
+            <a href="#" className="previous">
                 <p>&#8249;</p>
             </a>
-            <a href="#" class="next">
+            <a href="#" className="next">
                 <p>&#8250;</p>
             </a>
 
@@ -23,7 +23,7 @@ export default function Navbar() {
             </a>
 
             <a href="#">
-                <img src="../src/images/User-Avatar.png" alt="User-Avatar" class="user-avatar" />
+                <img src="../src/images/User-Avatar.png" alt="User-Avatar" className="user-avatar" />
             </a>
 
         </div>
