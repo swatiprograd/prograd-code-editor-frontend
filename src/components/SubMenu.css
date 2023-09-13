@@ -1,0 +1,19 @@
+.sub-menu {
+    margin: 20px;
+}
+
+.sub-menu a span:last-of-type {
+    margin-left: 35vw;
+}
+
+#languages {
+    margin-left: 3vw;
+    border-radius: 5px;
+}
+
+.sub-menu a img {
+    width: 19px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 13vw;
+}
