@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Navbar.css"
 
-export default function Navbar() {
+export default function Navbar(props) {
     return (
         <div className='navbar'>
             <a href="https://prograd.org/" target="_blank" rel="noreferrer">
@@ -22,10 +22,15 @@ export default function Navbar() {
                 </svg>
             </a>
 
+            <span className={`form-check form-switch text-${props.mode === 'light' ? 'dark' : 'light'}`}>
+                <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch"
+                    id="flexSwitchCheckDefault" />
+                <label className="form-check-label" htmlFor="flexSwitchCheckDefault"> Toggle Mode</label>
+            </span>
+
             <a href="#">
                 <img src="../src/images/User-Avatar.png" alt="User-Avatar" className="user-avatar" />
             </a>
-
         </div>
     )
 }
