@@ -1,11 +1,12 @@
 import React from 'react'
 import "./SubMenu.css"
+import Reload from '../images/Reload.png'
 
 export default function SubMenu() {
-  return (
-    <div className="sub-menu">
+    return (
+        <div className="sub-menu">
             <span>Description</span>
-            <a href="#">
+            <a href="/">
                 <span>Solutions</span>
             </a>
             <select name="languages" id="languages">
@@ -16,9 +17,9 @@ export default function SubMenu() {
                 <option value="C">C</option>
             </select>
 
-            <a href="#">
-                <img src="../src/images/Reload.png" alt="Reload"/>
+            <a href="/">
+                <img src={Reload} alt="Reload" />
             </a>
         </div>
-  )
+    )
 }
